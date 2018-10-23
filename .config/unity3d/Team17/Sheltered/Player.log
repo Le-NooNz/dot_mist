@@ -1,0 +1,42 @@
+terminate called after throwing an instance of 'std::logic_error'
+  what():  basic_string::_S_construct null not valid
+Stacktrace:
+
+
+Native stacktrace:
+
+	/home/noonz/.steam/steam/steamapps/common/Sheltered/Sheltered_Data/Mono/x86/libmono.so(+0x8960f) [0xb5e6e60f]
+	linux-gate.so.1(__kernel_rt_sigreturn+0) [0xb7f21d10]
+	linux-gate.so.1(__kernel_vsyscall+0x9) [0xb7f21cf9]
+	/lib/i386-linux-gnu/libc.so.6(gsignal+0xc2) [0xb789e5b2]
+	/lib/i386-linux-gnu/libc.so.6(abort+0x121) [0xb789f9d1]
+	/usr/lib/i386-linux-gnu/libstdc++.so.6(+0x6e867) [0xb7bd8867]
+	/usr/lib/i386-linux-gnu/libstdc++.so.6(+0x75e94) [0xb7bdfe94]
+	/usr/lib/i386-linux-gnu/libstdc++.so.6(+0x75efd) [0xb7bdfefd]
+	/usr/lib/i386-linux-gnu/libstdc++.so.6(+0x761fc) [0xb7be01fc]
+	/usr/lib/i386-linux-gnu/libstdc++.so.6(_ZSt19__throw_logic_errorPKc+0x46) [0xb7c09606]
+	/home/noonz/.steam/steam/steamapps/common/Sheltered/Sheltered.x86() [0x8b604e8]
+	/home/noonz/.steam/steam/steamapps/common/Sheltered/Sheltered.x86() [0x8b525fe]
+	/home/noonz/.steam/steam/steamapps/common/Sheltered/Sheltered.x86() [0x8b43e1a]
+	/home/noonz/.steam/steam/steamapps/common/Sheltered/Sheltered.x86() [0x8b50f0d]
+	/home/noonz/.steam/steam/steamapps/common/Sheltered/Sheltered.x86() [0x8ad6c83]
+	/home/noonz/.steam/steam/steamapps/common/Sheltered/Sheltered.x86() [0x8ad3677]
+	/home/noonz/.steam/steam/steamapps/common/Sheltered/Sheltered.x86() [0x82cd9cf]
+	/home/noonz/.steam/steam/steamapps/common/Sheltered/Sheltered.x86() [0x83eef6b]
+	/home/noonz/.steam/steam/steamapps/common/Sheltered/Sheltered.x86() [0x83c5e92]
+	/home/noonz/.steam/steam/steamapps/common/Sheltered/Sheltered.x86() [0x808e523]
+	/lib/i386-linux-gnu/libc.so.6(__libc_start_main+0xf1) [0xb7889e81]
+	/home/noonz/.steam/steam/steamapps/common/Sheltered/Sheltered.x86() [0x8098969]
+
+Debug info from gdb:
+
+ERROR: ld.so: object '/home/noonz/.steam/ubuntu12_64/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.
+I refuse to debug myself!
+No threads.
+
+=================================================================
+Got a SIGABRT while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+

@@ -1,0 +1,20 @@
+[Added Associations]
+text/plain=sublime_text.desktop;leafpad.desktop;
+inode/directory=pcmanfm.desktop;
+text/markdown=sublime_text.desktop;
+image/png=display-im6.q16.desktop;
+image/jpeg=display-im6.q16.desktop;
+application/x-theme=panel-desktop-handler.desktop;
+application/xml=firefox-esr.desktop;
+text/css=sublime_text.desktop;
+application/octet-stream=sublime_text.desktop;
+text/x-csrc=monodevelop.desktop;sublime_text.desktop;
+application/x-object=sublime_text.desktop;
+text/x-chdr=sublime_text.desktop;
+application/pdf=evince.desktop;
+text/x-log=sublime_text.desktop;
+application/vnd.oasis.opendocument.spreadsheet=libreoffice-calc.desktop;
+
+[Default Applications]
+text/plain=sublime_text.desktop
+inode/directory=pcmanfm.desktop

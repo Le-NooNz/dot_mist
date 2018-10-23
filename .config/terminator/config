@@ -1,0 +1,25 @@
+[global_config]
+  borderless = True
+  inactive_color_offset = 0.67
+  title_font = SFNS Display 8
+  title_use_system_font = False
+  window_state = hidden
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.2
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Monospace 9
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    use_system_font = False

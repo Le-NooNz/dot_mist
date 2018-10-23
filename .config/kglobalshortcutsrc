@@ -1,0 +1,22 @@
+[kded5]
+Show System Activity=Ctrl+Esc,Ctrl+Esc,Show System Activity
+_k_friendly_name=KDE Daemon
+
+[krunner]
+_k_friendly_name=Run Command
+run command=Alt+Space\tAlt+F2\tSearch,Alt+Space,Run Command
+run command on clipboard contents=Alt+Shift+F2,Alt+Shift+F2,Run Command on clipboard contents
+
+[ksmserver]
+Halt Without Confirmation=Ctrl+Alt+Shift+PgDown,none,Halt Without Confirmation
+Lock Session=Ctrl+Alt+L\tScreensaver,Ctrl+Alt+L\tScreensaver,Lock Session
+Log Out=Ctrl+Alt+Del,none,Log Out
+Log Out Without Confirmation=Ctrl+Alt+Shift+Del,none,Log Out Without Confirmation
+Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp,none,Reboot Without Confirmation
+_k_friendly_name=ksmserver
+
+[plasmashell]
+_k_friendly_name=Plasma
+manage activities=Meta+Q,Meta+Q,Activities...
+show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
+stop current activity=Meta+S,Meta+S,Stop Current Activity
